@@ -2,7 +2,8 @@
 
   - [x] initial setup
   - [x] connect to database
-  - [ ] create model
+  - [x] create model
+  - [ ] add json data
   - [ ]
 
 - [ ] FRONT
