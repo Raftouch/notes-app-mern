@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors')
 require('dotenv').config()
 const port = process.env.PORT
+const mongoose = require('./dbconfig')
 
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))

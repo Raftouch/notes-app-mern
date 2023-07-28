@@ -1,7 +1,8 @@
 - [ ] BACK
 
   - [x] initial setup
-  - [ ] connect to database
+  - [x] connect to database
+  - [ ] create model
   - [ ]
 
 - [ ] FRONT
