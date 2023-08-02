@@ -1,26 +1,26 @@
 [
   {
-    "_id": "6458f2c50370b02a2934d5fc",
+    "_id": { "$oid": "6458f2c50370b02a2934d5fc" },
     "title": "Walk my dog",
     "description": "Going for a walk with Waffa in parc Monceau"
   },
   {
-    "_id": "6458f2660370b02a293447b0",
+    "_id": { "$oid": "6458f2660370b02a293447b0" },
     "title": "Learn web development",
     "description": "Start with the basics: HTML & CSS."
   },
   {
-    "_id": "649ae53ea7fa4c85582e7724",
+    "_id": { "$oid": "649ae53ea7fa4c85582e7724" },
     "title": "Buy Alex' birthday gift",
     "description": "Coffee beans maybe"
   },
   {
-    "_id": "648ada707a15f23fa4ba9aa5",
+    "_id": { "$oid": "648ada707a15f23fa4ba9aa5" },
     "title": "Go to gym",
     "description": "2h exercise, stretching, sauna"
   },
   {
-    "_id": "648ae00a7a15f23fa4ba9aaa",
+    "_id": { "$oid": "648ae00a7a15f23fa4ba9aaa" },
     "title": "Bake a chocolate cake",
     "description": "Buy milk, sugar, unsalter butter and 4 large eggs."
   }
