@@ -4,7 +4,8 @@
   - [x] connect to database
   - [x] create model
   - [x] add json data
-  - [ ] create routes
-  - [ ]
+  - [x] create routes
 
 - [ ] FRONT
+  - [ ] initial setup
+  - [ ]

@@ -51,13 +51,29 @@ router.put('/api/notes/:id', async (req, res) => {
   try {
     const { title, description } = req.body
 
-    const note = await Note.findByIdAndUpdate(req.params.id, { title, description })
+    const note = await Note.findByIdAndUpdate(req.params.id, {
+      title,
+      description,
+    })
     if (!note) {
       throw new Error('An error occured while updating a note')
     }
     res.status(201).json(note)
   } catch (error) {
     res.status(500).json({ message: 'An error occured while updating a note' })
+    console.log(error)
+  }
+})
+
+router.delete('/api/notes/:id', async (req, res) => {
+  try {
+    const note = await Note.findByIdAndDelete(req.params.id)
+    if (!note) {
+      throw new Error('An error occured while deleting a note')
+    }
+    res.status(201).json(note)
+  } catch (error) {
+    res.status(500).json({ message: 'An error occured while deleting a note' })
     console.log(error)
   }
 })
