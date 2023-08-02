@@ -8,10 +8,7 @@ const mongoose = require('./dbconfig')
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-
-app.get('/', (req, res) => {
-  res.send('Hi there')
-})
+app.use('/', require('./routes/notes'))
 
 app.get('*', (req, res) => {
   res.send('404 page not found')
