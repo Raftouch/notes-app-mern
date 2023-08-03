@@ -7,5 +7,8 @@
   - [x] create routes
 
 - [ ] FRONT
-  - [ ] initial setup
+  - [x] initial setup
+  - [x] add routing
+  - [x] create pages
+  - [x] create components
   - [ ]
