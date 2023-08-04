@@ -1,4 +1,4 @@
-- [ ] BACK
+- [x] BACK
 
   - [x] initial setup
   - [x] connect to database
@@ -6,9 +6,10 @@
   - [x] add json data
   - [x] create routes
 
-- [ ] FRONT
+- [x] FRONT
+
   - [x] initial setup
   - [x] add routing
   - [x] create pages
   - [x] create components
-  - [ ]
+  - [x] added routes (CRUD)
