@@ -35,6 +35,9 @@ function Notes() {
         <p>{error}</p>
       ) : (
         <ul className="pt-10 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 justify-items-center mb-10">
+          <li className="bg-yellow-300 w-[250px] h-[150px] flex items-center justify-center">
+            <Link to={'/new-note'}>+ Add New</Link>
+          </li>
           {notes.map((note) => (
             <li
               className="relative bg-yellow-300 w-[250px] h-[150px] p-5"

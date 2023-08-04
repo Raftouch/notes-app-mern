@@ -10,12 +10,14 @@ import {
 import './index.css'
 import HomePage from './pages/HomePage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
+import NewNote from './pages/NewNote.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/new-note" element={<NewNote />} />
     </Route>
   )
 )
