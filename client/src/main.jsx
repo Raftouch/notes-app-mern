@@ -11,6 +11,7 @@ import './index.css'
 import HomePage from './pages/HomePage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import NewNote from './pages/NewNote.jsx'
+import UpdateNote from './pages/UpdateNote.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route index={true} element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/new-note" element={<NewNote />} />
+      <Route path="/notes/:id" element={<UpdateNote />} />
     </Route>
   )
 )

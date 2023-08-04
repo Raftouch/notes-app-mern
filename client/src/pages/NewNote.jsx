@@ -56,7 +56,7 @@ function NewNote() {
           ></textarea>
         </div>
         <input
-          className="bg-orange-600 w-full py-2 text-white cursor-pointer"
+          className="bg-green-600 w-full py-2 text-white cursor-pointer"
           type="submit"
           value={submitted ? 'Saving note...' : 'Add new note'}
           disabled={submitted}

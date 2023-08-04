@@ -28,7 +28,7 @@ function Notes() {
   }, [url])
 
   return (
-    <div>
+    <>
       {isLoading ? (
         <p>Loading...</p>
       ) : error ? (
@@ -56,7 +56,7 @@ function Notes() {
           ))}
         </ul>
       )}
-    </div>
+    </>
   )
 }
 
